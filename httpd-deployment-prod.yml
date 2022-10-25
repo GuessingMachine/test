@@ -16,7 +16,6 @@ spec:
     containers:
     - name: container
       image: conna/httpd:latest
-
       ports:
       - containerPort: 80
       resources:
